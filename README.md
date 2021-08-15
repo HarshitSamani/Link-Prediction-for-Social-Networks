@@ -1,4 +1,11 @@
-## Link Prediction for Social Networks
+<p align="center">
+  </a>
+  <h3 align="center">Link prediction for Social Networks</h3>
+    <br />
+    <br />
+  </p>
+  
+## About The Repository
 Given a snapshot of a social network, can we infer which new interactions among its members
 are likely to occur in the near future? We formalize this question as the link prediction problem,
 and develop approaches to link prediction based on measures for analyzing the "proximity" of
