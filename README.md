@@ -1,14 +1,16 @@
+<br />
 <p align="center">
-  </a>
-  <h3 align="center">Link prediction for Social Networks</h3>
-    <br />
-    <br />
-  </p>
+  <h3 align="center">Data Structures and Algorithms</h3>
+  <p align="center">
+    Link Prediction for Social Network
+
+</p>
   
 ## About The Repository
-Given a snapshot of a social network, can we infer which new interactions among its members
-are likely to occur in the near future? We formalize this question as the link prediction problem,
-and develop approaches to link prediction based on measures for analyzing the "proximity" of
-nodes in a network. Experiments on large co-authorship networks suggest that information
-about future interactions can be extracted from network topology alone, and that fairly subtle
-measures for detecting node proximity can outperform more direct measures.
+This Project deals with link/edge prediction in Social Networks. A network is represented as an undirected Graph. Given a Grpah/Social nework, We have to predict edges/connections which may come into exsitence from non-existent edges of Graph.For predicton, we use various score based method, which assigns score to each non-existent edge of graph. Based on this score we can predict edges which may come into existence in future.
+
+We will use score based functions to assign score to all non-existent edges:
+1. Kat'z Score
+2. Jaccard's coefficient
+3. Hitting Time
+4. rooted PageRank
